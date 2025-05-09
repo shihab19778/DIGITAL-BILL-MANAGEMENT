@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "bill_type": "electricity",
+      "icon": "https://th.bing.com/th/id/OIP.rWM2GqYBcakOi-3RZc05bAAAAA?w=174&h=180&c=7&r=0&o=5&pid=1.7",
+      "organization": "PALLI-BIDDUT",
+      "amount": 1890,
+      "due_date": "2025-03-22T06:57:58.110Z"
+    },
+    {
+      "id": 2,
+      "bill_type": "gas",
+      "icon": "https://th.bing.com/th/id/OIP.G6RIaKXln30we9JbDurTcAHaHa?rs=1&pid=ImgDetMain",
+      "organization": "MOBILE-EMI",
+      "amount": 1008,
+      "due_date": "2025-03-28T06:57:58.110Z"
+    },
+    {
+      "id": 3,
+      "bill_type": "water",
+      "icon": "https://i.ibb.co.com/tkXrS9X/wasa.jpg",
+      "organization": "WASA",
+      "amount": 750,
+      "due_date": "2025-03-25T06:57:58.110Z"
+    },
+    {
+      "id": 4,
+      "bill_type": "internet",
+      "icon": "https://th.bing.com/th/id/OIP.pRzkFDCDsmcaltmENoom3wHaH6?rs=1&pid=ImgDetMain",
+      "organization": "BRODBAND",
+      "amount": 1200,
+      "due_date": "2025-03-20T06:57:58.110Z"
+    },
+    {
+      "id": 5,
+      "bill_type": "electricity",
+      "icon": "https://i.ibb.co.com/Ng3G7tmn/nesco.png",
+      "organization": "NESCO",
+      "amount": 2150,
+      "due_date": "2025-03-15T06:57:58.110Z"
+    },
+    {
+      "id": 6,
+      "bill_type": "credit card",
+      "icon": "https://i.ibb.co.com/jvmYZSsn/brac-bank.png",
+      "organization": "BRAC Bank",
+      "amount": 5600,
+      "due_date": "2025-03-18T06:57:58.110Z"
+    },
+    {
+      "id": 7,
+      "bill_type": "tuition",
+      "icon": "https://i.ibb.co.com/4gs4TYCx/xyz.jpg",
+      "organization": "XYZ University",
+      "amount": 15000,
+      "due_date": "2025-04-05T06:57:58.110Z"
+    },
+    {
+      "id": 8,
+      "bill_type": "internet",
+      "icon": "https://i.ibb.co.com/r2PB2mMD/gp.png",
+      "organization": "Grameenphone",
+      "amount": 999,
+      "due_date": "2025-03-30T06:57:58.110Z"
+    }
+  ]
