@@ -1,6 +1,6 @@
 # 💸 Digital Bill Management System
 
-![Digital Bill Management Banner](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80)
+![Digital Bill Management Banner](https://i.postimg.cc/y8gmJkMZ/Screenshot-2025-05-09-144339.png)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://bill-management-shb.netlify.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -93,19 +93,6 @@ A modern and secure bill management platform built with React and Firebase. This
    ```bash
    npm run build
    ```
-
----
-
-## 📸 Screenshots
-
-### Home Page
-![Home Page](https://i.postimg.cc/y8gmJkMZ/Screenshot-2025-05-09-144339.png)
-
-### Bills Page
-![Bills Page](https://i.imgur.com/your-bills-screenshot.png)
-
-### Profile Page
-![Profile Page](https://i.imgur.com/your-profile-screenshot.png)
 
 ---
 
