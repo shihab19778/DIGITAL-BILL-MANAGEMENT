@@ -1,6 +1,6 @@
-# 💸 Billing App
+# 💸 Digital Bill Management System
 
-![Billing App Banner](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80)
+![Digital Bill Management Banner](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://bill-management-shb.netlify.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -15,72 +15,142 @@
 
 ---
 
-## ✨ About Billing App
+## ✨ About The Project
 
-A modern, ultra-fast, and secure bill management platform. Pay your utility bills, manage your profile, and track your payment history—all in a beautiful, dark-themed, responsive web app.
-
----
-
-## 🖼️ Features
-
-- 🔒 **Secure Authentication** (Email/Password, Google)
-- 💳 **Pay Bills Instantly**
-- 📊 **Track Payment History**
-- 🧑‍💼 **Profile Management**
-- 🌙 **Ultra-modern Dark Theme**
-- 📱 **Fully Responsive Design**
-- ⚡ **Fast & Smooth UI/UX**
-- 🔔 **Smart Reminders**
-- 🏦 **Mobile Banking Integration**
+A modern and secure bill management platform built with React and Firebase. This application allows users to manage their utility bills, track payment history, and maintain their profile in a beautiful, responsive interface.
 
 ---
 
-## 🛠️ Tech Stack
+## 🖼️ Key Features
 
-- [React 18+](https://react.dev/)
-- [Tailwind CSS 3+](https://tailwindcss.com/)
-- [Firebase Auth](https://firebase.google.com/)
-- [Vite](https://vitejs.dev/)
-- [Netlify](https://www.netlify.com/)
+- 🔒 **Secure Authentication**
+  - Email/Password login
+  - Google Sign-in
+  - Protected routes
+
+- 💳 **Bill Management**
+  - View all bills
+  - Pay bills instantly
+  - Track payment history
+  - Real-time balance updates
+
+- 🧑‍💼 **User Profile**
+  - Update profile information
+  - View transaction history
+  - Manage account settings
+
+- 🌙 **Modern UI/UX**
+  - Dark theme
+  - Responsive design
+  - Smooth animations
+  - Interactive components
 
 ---
 
-## ⚡ Quick Start
+## 🛠️ Built With
 
-```bash
-# 1. Clone the repo
-$ git clone https://github.com/your-username/bill-app.git
-$ cd bill-app
+- [React 18+](https://react.dev/) - Frontend framework
+- [Tailwind CSS 3+](https://tailwindcss.com/) - Styling
+- [Firebase](https://firebase.google.com/) - Authentication & Database
+- [Vite](https://vitejs.dev/) - Build tool
+- [Framer Motion](https://www.framer.com/motion/) - Animations
+- [React Icons](https://react-icons.github.io/react-icons/) - Icons
+- [React Router](https://reactrouter.com/) - Routing
+- [React Hot Toast](https://react-hot-toast.com/) - Notifications
 
-# 2. Install dependencies
-$ npm install
+---
 
-# 3. Add your .env file (see .env.example)
+## ⚡ Getting Started
 
-# 4. Run locally
-$ npm run dev
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/shihab19778/DIGITAL-BILL-MANAGEMENT.git
+   cd DIGITAL-BILL-MANAGEMENT
+   ```
 
-# 5. Build for production
-$ npm run build
-```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**
+   Create a `.env` file in the root directory and add your Firebase configuration:
+   ```
+   VITE_FIREBASE_API_KEY=your_api_key
+   VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+   VITE_FIREBASE_PROJECT_ID=your_project_id
+   VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+   VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+   VITE_FIREBASE_APP_ID=your_app_id
+   ```
+
+4. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Build for production**
+   ```bash
+   npm run build
+   ```
 
 ---
 
 ## 📸 Screenshots
 
-| Home (Dark) | Pay Bills | Profile |
-|:-----------:|:---------:|:-------:|
-| ![Home](https://i.imgur.com/0y0y0y0.png) | ![Bills](https://i.imgur.com/1x1x1x1.png) | ![Profile](https://i.imgur.com/2z2z2z2.png) |
+### Home Page
+![Home Page](https://i.postimg.cc/y8gmJkMZ/Screenshot-2025-05-09-144339.png)
+
+### Bills Page
+![Bills Page](https://i.imgur.com/your-bills-screenshot.png)
+
+### Profile Page
+![Profile Page](https://i.imgur.com/your-profile-screenshot.png)
 
 ---
 
-## 🙏 Credits
-- UI/UX inspired by modern SaaS & fintech platforms
-- [Unsplash](https://unsplash.com/) for banner images
-- [Heroicons](https://heroicons.com/) & [React Icons](https://react-icons.github.io/react-icons/)
+## 🔐 Security Features
+
+- Secure authentication with Firebase
+- Protected routes
+- Secure data storage
+- Real-time data validation
+- Input sanitization
+
+---
+
+## 📱 Responsive Design
+
+The application is fully responsive and works seamlessly on:
+- Desktop computers
+- Tablets
+- Mobile phones
+
+---
+
+## 🙏 Acknowledgments
+
+- [Firebase](https://firebase.google.com/) for authentication and database
+- [Tailwind CSS](https://tailwindcss.com/) for styling
+- [React Icons](https://react-icons.github.io/react-icons/) for icons
+- [Unsplash](https://unsplash.com/) for images
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👨‍💻 Author
+
+**Shihab** - [GitHub Profile](https://github.com/shihab19778)
+
+---
+
+## 📞 Contact
+
+For any queries or support, please reach out to:
+- GitHub: [@shihab19778](https://github.com/shihab19778)
+- Project Link: [https://github.com/shihab19778/DIGITAL-BILL-MANAGEMENT](https://github.com/shihab19778/DIGITAL-BILL-MANAGEMENT)
