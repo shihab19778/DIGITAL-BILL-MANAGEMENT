@@ -11,11 +11,13 @@ const Profile = () => {
       <div className="max-w-2xl mx-auto bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-8">
         <div className="flex flex-col items-center">
           {user?.photoURL ? (
-            <img
-              src={user.photoURL}
-              alt={user.displayName}
-              className="w-32 h-32 rounded-full object-cover border-4 border-blue-500"
-            />
+            <div className="group relative">
+              <img
+                src={user.photoURL}
+                alt={user.displayName}
+                className="w-32 h-32 rounded-full object-cover border-4 border-blue-500 transition-all duration-300 ease-in-out group-hover:scale-125 group-hover:shadow-xl"
+              />
+            </div>
           ) : (
             <div className="w-32 h-32 rounded-full bg-blue-500 flex items-center justify-center text-white text-4xl font-bold">
               <FaUser />
